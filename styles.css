@@ -17,3 +17,7 @@
  .card-difficulty{margin-left:2px;gap:4px}.card-dots{gap:2px}.card-dots i{width:6px;height:6px}.card-difficulty strong{font-size:.64rem}
 }
 @media(max-width:430px){.hero{grid-template-columns:minmax(116px,36%) minmax(0,64%)!important}.serv>div{grid-template-columns:38px minmax(0,1fr) 38px!important}}
+
+/* clean-5: editable final yield and linked preparation quantity */
+.yield-edit{display:grid;grid-template-columns:40px minmax(0,1fr) 40px;gap:6px;align-items:center;margin:6px 0}.yield-edit>button{height:40px;border:1px solid #dac7b5;border-radius:9px;background:#fff;color:var(--b);font-size:1.2rem;font-weight:900}.yield-edit>div{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;height:40px;border:1px solid #dac7b5;border-radius:9px;background:#fff;overflow:hidden}.yield-edit input{min-width:0;width:100%;height:38px;border:0!important;background:transparent!important;text-align:center;font:inherit;font-weight:900;outline:0}.yield-edit b{padding:0 9px;color:var(--muted);font-size:.82rem}.yield-reset{margin-top:6px;border:0;background:transparent;color:#7138b7;font-size:.72rem;font-weight:800;padding:2px}
+@media(max-width:720px){.yield{min-width:0!important;overflow:hidden!important}.yield-edit{width:100%;grid-template-columns:38px minmax(0,1fr) 38px}.yield-edit>button,.yield-edit>div{height:38px}.yield-edit input{height:36px}}
