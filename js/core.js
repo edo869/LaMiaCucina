@@ -1,0 +1,15 @@
+'use strict';
+window.LMC = window.LMC || {};
+LMC.$=(s,r=document)=>r.querySelector(s); LMC.$$=(s,r=document)=>[...r.querySelectorAll(s)];
+LMC.state={recipes:[],categories:[],scrollHandler:null,currentRoute:'#/'};
+LMC.keys={favorites:'recipeFavorites',history:'recipeHistory',prefs:'recipePrefs:',browse:'browse:'};
+LMC.read=(k,d)=>{try{return JSON.parse(localStorage.getItem(k))??d}catch{return d}};
+LMC.write=(k,v)=>localStorage.setItem(k,JSON.stringify(v));
+LMC.number=v=>Number(String(v??'').replace(',','.'));
+LMC.words=s=>String(s??'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9 ]/g,' ').split(/\s+/).filter(Boolean);
+LMC.total=r=>Number(r.times?.prep||0)+Number(r.times?.cook||0);
+LMC.format=(value,unit='')=>{let v=Number(value);if(['g','ml'].includes(unit)){if(Math.abs(v)<1)v=Math.round(v*100)/100;else if(Math.abs(v)<10)v=Math.round(v*10)/10;else v=Math.round(v)}else v=Math.round(v*100)/100;return Number.isInteger(v)?String(v):String(v).replace('.',',')};
+LMC.route=()=>{let x=(location.hash||'#/').replace(/^#\/?/,'');if(x==='favorites')return{type:'favorites'};if(x==='history')return{type:'history'};if(x.startsWith('category/'))return{type:'category',id:decodeURIComponent(x.slice(9))};if(x.startsWith('recipe/')){let[p,q='']=x.split('?');return{type:'recipe',id:decodeURIComponent(p.slice(7)),params:new URLSearchParams(q)}}return{type:'home'}};
+LMC.readBrowse=key=>{try{return JSON.parse(sessionStorage.getItem(LMC.keys.browse+key)||'{}')}catch{return{}}};
+LMC.saveBrowse=(key,value)=>sessionStorage.setItem(LMC.keys.browse+key,JSON.stringify(value));
+LMC.icons=type=>{const map={home:[['#/favorites','♥','Preferite'],['#/history','◷','Storico']],favorites:[['#/','⌂','Home'],['#/history','◷','Storico']],history:[['#/','⌂','Home'],['#/favorites','♥','Preferite']],category:[['#/','⌂','Home'],['#/favorites','♥','Preferite'],['#/history','◷','Storico']]};return `<nav class="icons">${(map[type]||[]).map(x=>`<a href="${x[0]}" title="${x[2]}" aria-label="${x[2]}">${x[1]}</a>`).join('')}</nav>`};
