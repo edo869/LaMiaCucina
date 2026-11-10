@@ -1,0 +1,129 @@
+{
+  "id": "pasta-alla-norma",
+  "name": "Pasta alla Norma",
+  "subtitle": "Melanzane fritte, pomodoro, basilico e ricotta salata",
+  "category": "Primi piatti",
+  "categories": [
+    "primi",
+    "pasta",
+    "vegetariane"
+  ],
+  "region": "Sicilia",
+  "baseServings": 4,
+  "referenceIngredientId": "pasta",
+  "times": {
+    "prep": 20,
+    "cook": 35
+  },
+  "image": "images/pasta-alla-norma.jpg",
+  "mainIngredients": [
+    "pasta",
+    "melanzane",
+    "pomodoro",
+    "ricotta salata"
+  ],
+  "ingredients": [
+    {
+      "id": "pasta",
+      "name": "Pasta corta",
+      "quantity": 320,
+      "unit": "g",
+      "scalable": true,
+      "allergens": [
+        "glutine"
+      ]
+    },
+    {
+      "id": "melanzane",
+      "name": "Melanzane",
+      "quantity": 500,
+      "unit": "g",
+      "scalable": true
+    },
+    {
+      "id": "pomodoro",
+      "name": "Passata di pomodoro",
+      "quantity": 500,
+      "unit": "g",
+      "scalable": true
+    },
+    {
+      "id": "ricotta",
+      "name": "Ricotta salata",
+      "quantity": 100,
+      "unit": "g",
+      "scalable": true,
+      "allergens": [
+        "latte"
+      ]
+    },
+    {
+      "id": "basilico",
+      "name": "Basilico",
+      "quantity": 12,
+      "unit": "foglie",
+      "scalable": true
+    },
+    {
+      "id": "olio",
+      "name": "Olio per friggere",
+      "quantity": 500,
+      "unit": "ml",
+      "scalable": true
+    }
+  ],
+  "steps": [
+    "Taglia e friggi le melanzane.",
+    "Cuoci il pomodoro.",
+    "Cuoci la pasta al dente.",
+    "Completa con melanzane e ricotta salata."
+  ],
+  "detailedSteps": [
+    {
+      "title": "Taglia le melanzane",
+      "text": "Taglia a fette di circa 5-7 mm.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Scalda l’olio",
+      "text": "Porta l’olio a 170-180 °C.",
+      "tip": "Un piccolo pezzo deve fare bollicine subito.",
+      "warning": "Se fuma è troppo caldo."
+    },
+    {
+      "title": "Friggi",
+      "text": "Friggi poche fette alla volta.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Cuoci il sugo",
+      "text": "Cuoci la passata circa 20 minuti.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Cuoci la pasta",
+      "text": "Scola 1-2 minuti prima.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Manteca",
+      "text": "Salta un minuto nel pomodoro.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Completa",
+      "text": "Aggiungi melanzane, basilico e ricotta salata.",
+      "tip": "",
+      "warning": ""
+    }
+  ],
+  "ratings": {
+    "difficulty": 2,
+    "time": 3
+  }
+}

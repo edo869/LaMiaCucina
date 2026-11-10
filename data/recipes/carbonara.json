@@ -1,0 +1,123 @@
+{
+  "id": "carbonara",
+  "name": "Spaghetti alla carbonara",
+  "subtitle": "Classico romano con guanciale, uova e Pecorino",
+  "category": "Primi piatti",
+  "categories": [
+    "primi",
+    "pasta",
+    "carne"
+  ],
+  "region": "Lazio",
+  "baseServings": 4,
+  "referenceIngredientId": "spaghetti",
+  "times": {
+    "prep": 15,
+    "cook": 20
+  },
+  "image": "images/carbonara.jpg",
+  "mainIngredients": [
+    "spaghetti",
+    "guanciale",
+    "uova",
+    "pecorino romano"
+  ],
+  "ingredients": [
+    {
+      "id": "spaghetti",
+      "name": "Spaghetti",
+      "quantity": 320,
+      "unit": "g",
+      "scalable": true,
+      "allergens": [
+        "glutine"
+      ]
+    },
+    {
+      "id": "guanciale",
+      "name": "Guanciale",
+      "quantity": 150,
+      "unit": "g",
+      "scalable": true
+    },
+    {
+      "id": "tuorli",
+      "name": "Tuorli",
+      "quantity": 4,
+      "unit": "pz",
+      "scalable": true,
+      "allergens": [
+        "uova"
+      ]
+    },
+    {
+      "id": "uovo",
+      "name": "Uovo intero",
+      "quantity": 1,
+      "unit": "pz",
+      "scalable": true,
+      "allergens": [
+        "uova"
+      ]
+    },
+    {
+      "id": "pecorino",
+      "name": "Pecorino Romano",
+      "quantity": 100,
+      "unit": "g",
+      "scalable": true,
+      "allergens": [
+        "latte"
+      ]
+    },
+    {
+      "id": "pepe",
+      "name": "Pepe nero",
+      "quantity": 3,
+      "unit": "g",
+      "scalable": true
+    }
+  ],
+  "steps": [
+    "Rosola il guanciale.",
+    "Prepara la crema di uova e Pecorino.",
+    "Cuoci gli spaghetti al dente.",
+    "Manteca fuori dal fuoco."
+  ],
+  "detailedSteps": [
+    {
+      "title": "Rosola il guanciale",
+      "text": "Taglialo a listarelle di 5-7 mm e cuoci 8-10 minuti a fuoco medio-basso.",
+      "tip": "Non serve olio.",
+      "warning": "Non farlo annerire."
+    },
+    {
+      "title": "Prepara la crema",
+      "text": "Mescola tuorli, uovo, Pecorino e pepe.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Cuoci la pasta",
+      "text": "Scola 1-2 minuti prima e conserva acqua.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Abbassa la temperatura",
+      "text": "Togli la padella dal fuoco prima di aggiungere le uova.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Manteca",
+      "text": "Aggiungi la crema e poca acqua alla volta.",
+      "tip": "La crema deve essere lucida.",
+      "warning": ""
+    }
+  ],
+  "ratings": {
+    "difficulty": 3,
+    "time": 2
+  }
+}

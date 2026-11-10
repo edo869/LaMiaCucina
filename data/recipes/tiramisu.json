@@ -1,0 +1,138 @@
+{
+  "id": "tiramisu",
+  "name": "Tiramisù",
+  "subtitle": "Savoiardi, caffè, mascarpone e cacao",
+  "category": "Dolci",
+  "categories": [
+    "dolci",
+    "senza-forno"
+  ],
+  "region": "Veneto / Friuli-Venezia Giulia",
+  "baseServings": 8,
+  "referenceIngredientId": "savoiardi",
+  "times": {
+    "prep": 35,
+    "cook": 0
+  },
+  "image": "images/tiramisu.jpg",
+  "mainIngredients": [
+    "mascarpone",
+    "caffè",
+    "savoiardi",
+    "cacao"
+  ],
+  "ingredients": [
+    {
+      "id": "savoiardi",
+      "name": "Savoiardi",
+      "quantity": 300,
+      "unit": "g",
+      "scalable": true,
+      "allergens": [
+        "glutine",
+        "uova"
+      ]
+    },
+    {
+      "id": "mascarpone",
+      "name": "Mascarpone",
+      "quantity": 500,
+      "unit": "g",
+      "scalable": true,
+      "allergens": [
+        "latte"
+      ]
+    },
+    {
+      "id": "uova",
+      "name": "Uova pastorizzate",
+      "quantity": 4,
+      "unit": "pz",
+      "scalable": true,
+      "allergens": [
+        "uova"
+      ]
+    },
+    {
+      "id": "zucchero",
+      "name": "Zucchero",
+      "quantity": 100,
+      "unit": "g",
+      "scalable": true
+    },
+    {
+      "id": "caffe",
+      "name": "Caffè",
+      "quantity": 300,
+      "unit": "ml",
+      "scalable": true
+    },
+    {
+      "id": "cacao",
+      "name": "Cacao amaro",
+      "quantity": 25,
+      "unit": "g",
+      "scalable": true
+    }
+  ],
+  "steps": [
+    "Prepara e raffredda il caffè.",
+    "Prepara la crema.",
+    "Bagna i savoiardi.",
+    "Forma gli strati e fai riposare."
+  ],
+  "detailedSteps": [
+    {
+      "title": "Raffredda il caffè",
+      "text": "Lascialo raffreddare completamente.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Separa le uova",
+      "text": "Usa uova pastorizzate.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Monta i tuorli",
+      "text": "Monta tuorli e zucchero e incorpora mascarpone.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Monta gli albumi",
+      "text": "Monta gli albumi.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Unisci",
+      "text": "Incorpora dal basso verso l’alto.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Bagna i savoiardi",
+      "text": "Immergi circa 1 secondo per lato.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Forma gli strati",
+      "text": "Alterna savoiardi e crema.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Riposa",
+      "text": "Refrigera almeno 4 ore.",
+      "tip": "",
+      "warning": ""
+    }
+  ],
+  "ratings": {
+    "difficulty": 3,
+    "time": 3
+  }
+}

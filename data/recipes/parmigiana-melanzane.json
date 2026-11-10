@@ -1,0 +1,103 @@
+{
+  "id": "parmigiana-melanzane",
+  "name": "Parmigiana di melanzane",
+  "subtitle": "Melanzane, pomodoro e formaggi a strati",
+  "category": "Secondi piatti",
+  "categories": [
+    "secondi",
+    "vegetariane",
+    "forno"
+  ],
+  "region": "Campania / Sicilia",
+  "baseServings": 6,
+  "referenceIngredientId": "melanzane",
+  "times": {
+    "prep": 35,
+    "cook": 40
+  },
+  "image": "images/parmigiana-melanzane.jpg",
+  "mainIngredients": [
+    "melanzane",
+    "pomodoro",
+    "mozzarella",
+    "parmigiano"
+  ],
+  "ingredients": [
+    {
+      "id": "melanzane",
+      "name": "Melanzane",
+      "quantity": 1200,
+      "unit": "g",
+      "scalable": true
+    },
+    {
+      "id": "pomodoro",
+      "name": "Passata",
+      "quantity": 800,
+      "unit": "g",
+      "scalable": true
+    },
+    {
+      "id": "mozzarella",
+      "name": "Mozzarella",
+      "quantity": 350,
+      "unit": "g",
+      "scalable": true,
+      "allergens": [
+        "latte"
+      ]
+    },
+    {
+      "id": "parmigiano",
+      "name": "Parmigiano",
+      "quantity": 120,
+      "unit": "g",
+      "scalable": true,
+      "allergens": [
+        "latte"
+      ]
+    }
+  ],
+  "steps": [
+    "Affetta e friggi le melanzane.",
+    "Prepara sugo e mozzarella.",
+    "Forma gli strati.",
+    "Cuoci e riposa."
+  ],
+  "detailedSteps": [
+    {
+      "title": "Affetta",
+      "text": "Taglia per il lungo a circa 5 mm.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Friggi",
+      "text": "Friggi a 170-180 °C.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Prepara sugo e mozzarella",
+      "text": "Cuoci il pomodoro e scola la mozzarella.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Crea gli strati",
+      "text": "Alterna melanzane, sugo e formaggi.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Cuoci",
+      "text": "Cuoci a 190 °C per 35-40 minuti.",
+      "tip": "",
+      "warning": ""
+    }
+  ],
+  "ratings": {
+    "difficulty": 3,
+    "time": 4
+  }
+}

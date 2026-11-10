@@ -1,0 +1,112 @@
+{
+  "id": "ossobuco-milanese",
+  "name": "Ossobuco alla milanese",
+  "subtitle": "Vitello brasato con gremolada",
+  "category": "Secondi piatti",
+  "categories": [
+    "secondi",
+    "carne"
+  ],
+  "region": "Lombardia",
+  "baseServings": 4,
+  "referenceIngredientId": "ossobuco",
+  "times": {
+    "prep": 25,
+    "cook": 90
+  },
+  "image": "images/ossobuco-milanese.jpg",
+  "mainIngredients": [
+    "ossobuco di vitello",
+    "gremolada",
+    "limone",
+    "prezzemolo"
+  ],
+  "ingredients": [
+    {
+      "id": "ossobuco",
+      "name": "Ossibuchi di vitello",
+      "quantity": 4,
+      "unit": "pz",
+      "scalable": true
+    },
+    {
+      "id": "burro",
+      "name": "Burro",
+      "quantity": 40,
+      "unit": "g",
+      "scalable": true,
+      "allergens": [
+        "latte"
+      ]
+    },
+    {
+      "id": "vino",
+      "name": "Vino bianco",
+      "quantity": 120,
+      "unit": "ml",
+      "scalable": true
+    },
+    {
+      "id": "brodo",
+      "name": "Brodo",
+      "quantity": 500,
+      "unit": "ml",
+      "scalable": true
+    },
+    {
+      "id": "cipolla",
+      "name": "Cipolla",
+      "quantity": 1,
+      "unit": "pz",
+      "scalable": true
+    }
+  ],
+  "steps": [
+    "Incidi e rosola gli ossibuchi.",
+    "Aggiungi cipolla e vino.",
+    "Cuoci lentamente col brodo.",
+    "Completa con gremolada."
+  ],
+  "detailedSteps": [
+    {
+      "title": "Prepara la carne",
+      "text": "Incidi la pellicina esterna.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Rosola",
+      "text": "Rosola 3-4 minuti per lato.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Crea il fondo",
+      "text": "Aggiungi cipolla e vino.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Cuoci lentamente",
+      "text": "Cuoci 75-90 minuti.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Gremolada",
+      "text": "Trita prezzemolo, aglio e scorza di limone.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Completa",
+      "text": "Aggiungi la gremolada.",
+      "tip": "",
+      "warning": ""
+    }
+  ],
+  "ratings": {
+    "difficulty": 3,
+    "time": 4
+  }
+}

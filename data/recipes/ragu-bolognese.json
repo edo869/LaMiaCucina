@@ -1,0 +1,147 @@
+{
+  "id": "ragu-bolognese",
+  "name": "Ragù alla bolognese",
+  "subtitle": "Preparazione lenta per lasagne e tagliatelle",
+  "category": "Preparazioni di base",
+  "categories": [
+    "basi",
+    "carne"
+  ],
+  "region": "Emilia-Romagna",
+  "baseServings": 6,
+  "referenceIngredientId": "manzo",
+  "times": {
+    "prep": 25,
+    "cook": 150
+  },
+  "image": "images/ragu-bolognese.jpg",
+  "mainIngredients": [
+    "manzo",
+    "pancetta",
+    "soffritto",
+    "pomodoro"
+  ],
+  "ingredients": [
+    {
+      "id": "manzo",
+      "name": "Manzo macinato",
+      "quantity": 400,
+      "unit": "g",
+      "scalable": true
+    },
+    {
+      "id": "pancetta",
+      "name": "Pancetta",
+      "quantity": 150,
+      "unit": "g",
+      "scalable": true
+    },
+    {
+      "id": "cipolla",
+      "name": "Cipolla",
+      "quantity": 60,
+      "unit": "g",
+      "scalable": true
+    },
+    {
+      "id": "carota",
+      "name": "Carota",
+      "quantity": 60,
+      "unit": "g",
+      "scalable": true
+    },
+    {
+      "id": "sedano",
+      "name": "Sedano",
+      "quantity": 60,
+      "unit": "g",
+      "scalable": true,
+      "allergens": [
+        "sedano"
+      ]
+    },
+    {
+      "id": "vino",
+      "name": "Vino",
+      "quantity": 150,
+      "unit": "ml",
+      "scalable": true,
+      "allergens": [
+        "solfiti"
+      ]
+    },
+    {
+      "id": "passata",
+      "name": "Passata",
+      "quantity": 200,
+      "unit": "g",
+      "scalable": true
+    },
+    {
+      "id": "brodo",
+      "name": "Brodo",
+      "quantity": 300,
+      "unit": "ml",
+      "scalable": true
+    }
+  ],
+  "steps": [
+    "Prepara soffritto e pancetta.",
+    "Rosola la carne.",
+    "Sfuma e aggiungi pomodoro.",
+    "Cuoci lentamente."
+  ],
+  "detailedSteps": [
+    {
+      "title": "Soffritto",
+      "text": "Taglia le verdure a cubetti.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Pancetta",
+      "text": "Cuoci 4-5 minuti.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Verdure",
+      "text": "Cuoci il soffritto.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Carne",
+      "text": "Rosola la carne.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Vino",
+      "text": "Sfuma.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Pomodoro",
+      "text": "Aggiungi passata e brodo.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Cottura lenta",
+      "text": "Sobbolle minimo 2 ore.",
+      "tip": "Deve risultare denso.",
+      "warning": ""
+    }
+  ],
+  "ratings": {
+    "difficulty": 3,
+    "time": 5
+  },
+  "defaultYield": {
+    "quantity": 1200,
+    "unit": "g",
+    "label": "Ragù pronto"
+  }
+}

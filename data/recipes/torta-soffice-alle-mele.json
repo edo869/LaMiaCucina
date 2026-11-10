@@ -1,0 +1,141 @@
+{
+  "id": "torta-soffice-alle-mele",
+  "name": "Torta soffice alle mele",
+  "subtitle": "Morbida torta casalinga ricca di mele",
+  "category": "Dolci",
+  "categories": [
+    "dolci",
+    "forno",
+    "vegetariane"
+  ],
+  "region": "Italia",
+  "baseServings": 8,
+  "referenceIngredientId": "farina",
+  "times": {
+    "prep": 20,
+    "cook": 45
+  },
+  "image": "images/torta-soffice-alle-mele.jpg",
+  "mainIngredients": [
+    "mele",
+    "farina",
+    "uova"
+  ],
+  "ingredients": [
+    {
+      "id": "farina",
+      "name": "Farina 00",
+      "quantity": 250,
+      "unit": "g",
+      "scalable": true,
+      "allergens": [
+        "glutine"
+      ]
+    },
+    {
+      "id": "mele",
+      "name": "Mele",
+      "quantity": 600,
+      "unit": "g",
+      "scalable": true
+    },
+    {
+      "id": "zucchero",
+      "name": "Zucchero",
+      "quantity": 150,
+      "unit": "g",
+      "scalable": true
+    },
+    {
+      "id": "uova",
+      "name": "Uova",
+      "quantity": 3,
+      "unit": "pz",
+      "scalable": true,
+      "allergens": [
+        "uova"
+      ]
+    },
+    {
+      "id": "latte",
+      "name": "Latte",
+      "quantity": 100,
+      "unit": "ml",
+      "scalable": true,
+      "allergens": [
+        "latte"
+      ]
+    },
+    {
+      "id": "burro",
+      "name": "Burro",
+      "quantity": 80,
+      "unit": "g",
+      "scalable": true,
+      "allergens": [
+        "latte"
+      ]
+    },
+    {
+      "id": "lievito",
+      "name": "Lievito",
+      "quantity": 16,
+      "unit": "g",
+      "scalable": true
+    }
+  ],
+  "steps": [
+    "Prepara mele e stampo.",
+    "Monta uova e zucchero.",
+    "Aggiungi liquidi e polveri.",
+    "Unisci le mele e cuoci."
+  ],
+  "detailedSteps": [
+    {
+      "title": "Forno e stampo",
+      "text": "Scalda a 175 °C e prepara uno stampo da 24 cm.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Mele",
+      "text": "Metà a cubetti e metà a fettine.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Monta",
+      "text": "Monta uova e zucchero.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Liquidi",
+      "text": "Aggiungi burro e latte.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Polveri",
+      "text": "Incorpora farina e lievito.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Mele e stampo",
+      "text": "Aggiungi le mele.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Cuoci",
+      "text": "40-45 minuti.",
+      "tip": "",
+      "warning": ""
+    }
+  ],
+  "ratings": {
+    "difficulty": 2,
+    "time": 3
+  }
+}

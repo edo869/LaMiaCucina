@@ -1,0 +1,97 @@
+{
+  "id": "amatriciana",
+  "name": "Bucatini all’amatriciana",
+  "subtitle": "Pomodoro, guanciale e Pecorino Romano",
+  "category": "Primi piatti",
+  "categories": [
+    "primi",
+    "pasta",
+    "carne"
+  ],
+  "region": "Lazio",
+  "baseServings": 4,
+  "referenceIngredientId": "bucatini",
+  "times": {
+    "prep": 10,
+    "cook": 30
+  },
+  "image": "images/amatriciana.jpg",
+  "mainIngredients": [
+    "bucatini",
+    "guanciale",
+    "pomodoro",
+    "pecorino romano"
+  ],
+  "ingredients": [
+    {
+      "id": "bucatini",
+      "name": "Bucatini",
+      "quantity": 320,
+      "unit": "g",
+      "scalable": true,
+      "allergens": [
+        "glutine"
+      ]
+    },
+    {
+      "id": "guanciale",
+      "name": "Guanciale",
+      "quantity": 150,
+      "unit": "g",
+      "scalable": true
+    },
+    {
+      "id": "pomodoro",
+      "name": "Pomodori pelati",
+      "quantity": 500,
+      "unit": "g",
+      "scalable": true
+    },
+    {
+      "id": "pecorino",
+      "name": "Pecorino Romano",
+      "quantity": 80,
+      "unit": "g",
+      "scalable": true,
+      "allergens": [
+        "latte"
+      ]
+    }
+  ],
+  "steps": [
+    "Rosola il guanciale.",
+    "Cuoci il pomodoro.",
+    "Cuoci i bucatini al dente.",
+    "Salta e completa col Pecorino."
+  ],
+  "detailedSteps": [
+    {
+      "title": "Rosola il guanciale",
+      "text": "Taglia a listarelle e cuoci da padella fredda finché dorato.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Cuoci il pomodoro",
+      "text": "Schiaccia i pelati e cuocili 15-20 minuti.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Cuoci i bucatini",
+      "text": "Scolali al dente e conserva poca acqua.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Salta e completa",
+      "text": "Salta nel sugo e unisci Pecorino e guanciale croccante.",
+      "tip": "",
+      "warning": ""
+    }
+  ],
+  "ratings": {
+    "difficulty": 2,
+    "time": 2
+  }
+}

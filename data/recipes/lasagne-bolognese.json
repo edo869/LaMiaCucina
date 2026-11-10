@@ -1,0 +1,111 @@
+{
+  "id": "lasagne-bolognese",
+  "name": "Lasagne alla bolognese",
+  "subtitle": "Sfoglia, ragù, besciamella e Parmigiano",
+  "category": "Primi piatti",
+  "categories": [
+    "primi",
+    "pasta",
+    "carne",
+    "forno"
+  ],
+  "region": "Emilia-Romagna",
+  "baseServings": 8,
+  "referenceIngredientId": "sfoglia",
+  "times": {
+    "prep": 60,
+    "cook": 40
+  },
+  "image": "images/lasagne-bolognese.jpg",
+  "mainIngredients": [
+    "sfoglia all’uovo",
+    "ragù bolognese",
+    "besciamella",
+    "parmigiano"
+  ],
+  "ingredients": [
+    {
+      "id": "sfoglia",
+      "name": "Sfoglia all’uovo",
+      "quantity": 500,
+      "unit": "g",
+      "scalable": true,
+      "allergens": [
+        "glutine",
+        "uova"
+      ]
+    },
+    {
+      "id": "ragu",
+      "name": "Ragù alla bolognese",
+      "quantity": 1200,
+      "unit": "g",
+      "scalable": true,
+      "recipeId": "ragu-bolognese"
+    },
+    {
+      "id": "besciamella",
+      "name": "Besciamella",
+      "quantity": 700,
+      "unit": "g",
+      "scalable": true,
+      "allergens": [
+        "latte",
+        "glutine"
+      ],
+      "recipeId": "besciamella"
+    },
+    {
+      "id": "parmigiano",
+      "name": "Parmigiano Reggiano",
+      "quantity": 150,
+      "unit": "g",
+      "scalable": true,
+      "allergens": [
+        "latte"
+      ]
+    }
+  ],
+  "steps": [
+    "Prepara ragù e besciamella.",
+    "Prepara sfoglia e teglia.",
+    "Alterna gli strati.",
+    "Cuoci e lascia riposare."
+  ],
+  "detailedSteps": [
+    {
+      "title": "Prepara le basi",
+      "text": "Prepara ragù e besciamella.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Prepara sfoglia e forno",
+      "text": "Scalda a 180 °C statico.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Crea gli strati",
+      "text": "Alterna sfoglia, besciamella, ragù e Parmigiano.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Cuoci",
+      "text": "Cuoci 35-40 minuti.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Riposa",
+      "text": "Aspetta 10-15 minuti.",
+      "tip": "Il riposo stabilizza gli strati.",
+      "warning": ""
+    }
+  ],
+  "ratings": {
+    "difficulty": 4,
+    "time": 5
+  }
+}

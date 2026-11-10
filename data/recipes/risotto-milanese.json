@@ -1,0 +1,127 @@
+{
+  "id": "risotto-milanese",
+  "name": "Risotto alla milanese",
+  "subtitle": "Cremoso, allo zafferano e mantecato all’onda",
+  "category": "Primi piatti",
+  "categories": [
+    "primi",
+    "riso",
+    "vegetariane"
+  ],
+  "region": "Lombardia",
+  "baseServings": 4,
+  "referenceIngredientId": "riso",
+  "times": {
+    "prep": 15,
+    "cook": 25
+  },
+  "image": "images/risotto-milanese.jpg",
+  "mainIngredients": [
+    "riso",
+    "zafferano",
+    "burro",
+    "parmigiano"
+  ],
+  "ingredients": [
+    {
+      "id": "riso",
+      "name": "Riso Carnaroli",
+      "quantity": 400,
+      "unit": "g",
+      "scalable": true
+    },
+    {
+      "id": "burro",
+      "name": "Burro",
+      "quantity": 50,
+      "unit": "g",
+      "scalable": true,
+      "allergens": [
+        "latte"
+      ]
+    },
+    {
+      "id": "parmigiano",
+      "name": "Parmigiano Reggiano",
+      "quantity": 60,
+      "unit": "g",
+      "scalable": true,
+      "allergens": [
+        "latte"
+      ]
+    },
+    {
+      "id": "brodo",
+      "name": "Brodo vegetale caldo",
+      "quantity": 1500,
+      "unit": "ml",
+      "scalable": true
+    },
+    {
+      "id": "cipolla",
+      "name": "Cipolla",
+      "quantity": 60,
+      "unit": "g",
+      "scalable": true
+    },
+    {
+      "id": "vino",
+      "name": "Vino bianco",
+      "quantity": 100,
+      "unit": "ml",
+      "scalable": true,
+      "allergens": [
+        "solfiti"
+      ]
+    },
+    {
+      "id": "zafferano",
+      "name": "Zafferano",
+      "quantity": 0.3,
+      "unit": "g",
+      "scalable": true
+    }
+  ],
+  "steps": [
+    "Prepara brodo e zafferano.",
+    "Appassisci la cipolla e tosta il riso.",
+    "Sfuma e cuoci col brodo.",
+    "Aggiungi lo zafferano e manteca."
+  ],
+  "detailedSteps": [
+    {
+      "title": "Prepara brodo e zafferano",
+      "text": "Mantieni il brodo molto caldo ma non a bollore forte. Lascia lo zafferano in circa 100 ml di brodo caldo per 10 minuti.",
+      "tip": "Brodo caldo mantiene regolare la cottura.",
+      "warning": ""
+    },
+    {
+      "title": "Tosta il riso",
+      "text": "Appassisci la cipolla con metà burro, poi aggiungi il riso e mescola 2-3 minuti.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Cuoci gradualmente",
+      "text": "Sfuma col vino; aggiungi brodo 1-2 mestoli alla volta.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Aggiungi lo zafferano",
+      "text": "A metà cottura versa l’infusione.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Manteca",
+      "text": "Spegni, aggiungi burro e Parmigiano e mescola energicamente.",
+      "tip": "",
+      "warning": ""
+    }
+  ],
+  "ratings": {
+    "difficulty": 3,
+    "time": 3
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "id": "cinnamon-roll",
+  "name": "Cinnamon roll",
+  "subtitle": "Girelle soffici alla cannella",
+  "category": "Dolci",
+  "categories": [
+    "dolci",
+    "lievitati",
+    "forno"
+  ],
+  "region": "Internazionale",
+  "baseServings": 9,
+  "referenceIngredientId": "farina",
+  "times": {
+    "prep": 30,
+    "cook": 25
+  },
+  "image": "images/cinnamon-roll.jpg",
+  "mainIngredients": [
+    "cannella",
+    "farina",
+    "burro",
+    "zucchero"
+  ],
+  "ingredients": [
+    {
+      "id": "farina",
+      "name": "Farina",
+      "quantity": 450,
+      "unit": "g",
+      "scalable": true,
+      "allergens": [
+        "glutine"
+      ]
+    },
+    {
+      "id": "latte",
+      "name": "Latte",
+      "quantity": 220,
+      "unit": "ml",
+      "scalable": true,
+      "allergens": [
+        "latte"
+      ]
+    },
+    {
+      "id": "burro",
+      "name": "Burro",
+      "quantity": 90,
+      "unit": "g",
+      "scalable": true,
+      "allergens": [
+        "latte"
+      ]
+    },
+    {
+      "id": "zucchero",
+      "name": "Zucchero",
+      "quantity": 90,
+      "unit": "g",
+      "scalable": true
+    },
+    {
+      "id": "lievito",
+      "name": "Lievito secco",
+      "quantity": 7,
+      "unit": "g",
+      "scalable": true
+    },
+    {
+      "id": "cannella",
+      "name": "Cannella",
+      "quantity": 18,
+      "unit": "g",
+      "scalable": true
+    }
+  ],
+  "steps": [
+    "Impasta e fai lievitare.",
+    "Stendi e farcisci.",
+    "Arrotola e taglia.",
+    "Fai lievitare ancora e cuoci."
+  ],
+  "detailedSteps": [
+    {
+      "title": "Lievito",
+      "text": "Usa latte appena tiepido.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Impasta",
+      "text": "Impasta 8-10 minuti.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Prima lievitazione",
+      "text": "Lascia raddoppiare.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Farcisci",
+      "text": "Stendi e farcisci.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Forma",
+      "text": "Taglia 9 girelle.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Seconda lievitazione",
+      "text": "30-45 minuti.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Cuoci",
+      "text": "180 °C per 20-25 minuti.",
+      "tip": "",
+      "warning": ""
+    }
+  ],
+  "ratings": {
+    "difficulty": 4,
+    "time": 5
+  }
+}

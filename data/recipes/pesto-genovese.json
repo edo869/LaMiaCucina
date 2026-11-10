@@ -1,0 +1,118 @@
+{
+  "id": "pesto-genovese",
+  "name": "Trofie al pesto genovese",
+  "subtitle": "Pesto di basilico, pinoli e formaggi",
+  "category": "Primi piatti",
+  "categories": [
+    "primi",
+    "pasta",
+    "vegetariane"
+  ],
+  "region": "Liguria",
+  "baseServings": 4,
+  "referenceIngredientId": "trofie",
+  "times": {
+    "prep": 20,
+    "cook": 15
+  },
+  "image": "images/pesto-genovese.jpg",
+  "mainIngredients": [
+    "trofie",
+    "basilico",
+    "pinoli",
+    "parmigiano",
+    "pecorino"
+  ],
+  "ingredients": [
+    {
+      "id": "trofie",
+      "name": "Trofie",
+      "quantity": 320,
+      "unit": "g",
+      "scalable": true,
+      "allergens": [
+        "glutine"
+      ]
+    },
+    {
+      "id": "basilico",
+      "name": "Basilico",
+      "quantity": 60,
+      "unit": "g",
+      "scalable": true
+    },
+    {
+      "id": "pinoli",
+      "name": "Pinoli",
+      "quantity": 30,
+      "unit": "g",
+      "scalable": true,
+      "allergens": [
+        "frutta a guscio"
+      ]
+    },
+    {
+      "id": "parmigiano",
+      "name": "Parmigiano",
+      "quantity": 50,
+      "unit": "g",
+      "scalable": true,
+      "allergens": [
+        "latte"
+      ]
+    },
+    {
+      "id": "pecorino",
+      "name": "Pecorino",
+      "quantity": 30,
+      "unit": "g",
+      "scalable": true,
+      "allergens": [
+        "latte"
+      ]
+    },
+    {
+      "id": "olio",
+      "name": "Olio EVO",
+      "quantity": 80,
+      "unit": "ml",
+      "scalable": true
+    }
+  ],
+  "steps": [
+    "Prepara il basilico.",
+    "Prepara il pesto.",
+    "Cuoci le trofie.",
+    "Condisci fuori dal fuoco."
+  ],
+  "detailedSteps": [
+    {
+      "title": "Prepara il basilico",
+      "text": "Lava e asciuga completamente.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Prepara il pesto",
+      "text": "Pesta basilico, pinoli e formaggi aggiungendo olio.",
+      "tip": "Tieni il composto fresco.",
+      "warning": "Non scaldare il basilico."
+    },
+    {
+      "title": "Cuoci le trofie",
+      "text": "Scola al dente conservando acqua.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Condisci",
+      "text": "Condisci fuori dal fuoco.",
+      "tip": "",
+      "warning": ""
+    }
+  ],
+  "ratings": {
+    "difficulty": 2,
+    "time": 2
+  }
+}

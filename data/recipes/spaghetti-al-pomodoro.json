@@ -1,0 +1,106 @@
+{
+  "id": "spaghetti-al-pomodoro",
+  "name": "Spaghetti al pomodoro",
+  "subtitle": "Il grande classico con pomodoro e basilico",
+  "category": "Primi piatti",
+  "categories": [
+    "primi",
+    "pasta",
+    "vegetariane"
+  ],
+  "region": "Italia",
+  "baseServings": 4,
+  "referenceIngredientId": "spaghetti",
+  "times": {
+    "prep": 10,
+    "cook": 25
+  },
+  "image": "images/spaghetti-al-pomodoro.jpg",
+  "mainIngredients": [
+    "spaghetti",
+    "pomodoro",
+    "basilico"
+  ],
+  "ingredients": [
+    {
+      "id": "spaghetti",
+      "name": "Spaghetti",
+      "quantity": 320,
+      "unit": "g",
+      "scalable": true,
+      "allergens": [
+        "glutine"
+      ]
+    },
+    {
+      "id": "pomodoro",
+      "name": "Pomodori pelati",
+      "quantity": 600,
+      "unit": "g",
+      "scalable": true
+    },
+    {
+      "id": "olio",
+      "name": "Olio EVO",
+      "quantity": 40,
+      "unit": "ml",
+      "scalable": true
+    },
+    {
+      "id": "aglio",
+      "name": "Aglio",
+      "quantity": 1,
+      "unit": "spicchio",
+      "scalable": true
+    },
+    {
+      "id": "basilico",
+      "name": "Basilico",
+      "quantity": 10,
+      "unit": "foglie",
+      "scalable": true
+    }
+  ],
+  "steps": [
+    "Insaporisci l’olio con l’aglio.",
+    "Cuoci il pomodoro.",
+    "Cuoci la pasta al dente.",
+    "Salta nel sugo."
+  ],
+  "detailedSteps": [
+    {
+      "title": "Prepara il pomodoro",
+      "text": "Schiaccia i pelati.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Insaporisci",
+      "text": "Scalda olio e aglio.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Sugo",
+      "text": "Cuoci il pomodoro 20 minuti.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Pasta",
+      "text": "Scola 1-2 minuti prima.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Termina",
+      "text": "Salta nel pomodoro.",
+      "tip": "",
+      "warning": ""
+    }
+  ],
+  "ratings": {
+    "difficulty": 1,
+    "time": 1
+  }
+}

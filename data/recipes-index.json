@@ -1,0 +1,426 @@
+[
+  {
+    "id": "risotto-milanese",
+    "name": "Risotto alla milanese",
+    "subtitle": "Cremoso, allo zafferano e mantecato all’onda",
+    "category": "Primi piatti",
+    "categories": [
+      "primi",
+      "riso",
+      "vegetariane"
+    ],
+    "region": "Lombardia",
+    "baseServings": 4,
+    "times": {
+      "prep": 15,
+      "cook": 25
+    },
+    "image": "images/risotto-milanese.jpg",
+    "mainIngredients": [
+      "riso",
+      "zafferano",
+      "burro",
+      "parmigiano"
+    ],
+    "ratings": {
+      "difficulty": 3,
+      "time": 3
+    }
+  },
+  {
+    "id": "carbonara",
+    "name": "Spaghetti alla carbonara",
+    "subtitle": "Classico romano con guanciale, uova e Pecorino",
+    "category": "Primi piatti",
+    "categories": [
+      "primi",
+      "pasta",
+      "carne"
+    ],
+    "region": "Lazio",
+    "baseServings": 4,
+    "times": {
+      "prep": 15,
+      "cook": 20
+    },
+    "image": "images/carbonara.jpg",
+    "mainIngredients": [
+      "spaghetti",
+      "guanciale",
+      "uova",
+      "pecorino romano"
+    ],
+    "ratings": {
+      "difficulty": 3,
+      "time": 2
+    }
+  },
+  {
+    "id": "amatriciana",
+    "name": "Bucatini all’amatriciana",
+    "subtitle": "Pomodoro, guanciale e Pecorino Romano",
+    "category": "Primi piatti",
+    "categories": [
+      "primi",
+      "pasta",
+      "carne"
+    ],
+    "region": "Lazio",
+    "baseServings": 4,
+    "times": {
+      "prep": 10,
+      "cook": 30
+    },
+    "image": "images/amatriciana.jpg",
+    "mainIngredients": [
+      "bucatini",
+      "guanciale",
+      "pomodoro",
+      "pecorino romano"
+    ],
+    "ratings": {
+      "difficulty": 2,
+      "time": 2
+    }
+  },
+  {
+    "id": "lasagne-bolognese",
+    "name": "Lasagne alla bolognese",
+    "subtitle": "Sfoglia, ragù, besciamella e Parmigiano",
+    "category": "Primi piatti",
+    "categories": [
+      "primi",
+      "pasta",
+      "carne",
+      "forno"
+    ],
+    "region": "Emilia-Romagna",
+    "baseServings": 8,
+    "times": {
+      "prep": 60,
+      "cook": 40
+    },
+    "image": "images/lasagne-bolognese.jpg",
+    "mainIngredients": [
+      "sfoglia all’uovo",
+      "ragù bolognese",
+      "besciamella",
+      "parmigiano"
+    ],
+    "ratings": {
+      "difficulty": 4,
+      "time": 5
+    }
+  },
+  {
+    "id": "pasta-alla-norma",
+    "name": "Pasta alla Norma",
+    "subtitle": "Melanzane fritte, pomodoro, basilico e ricotta salata",
+    "category": "Primi piatti",
+    "categories": [
+      "primi",
+      "pasta",
+      "vegetariane"
+    ],
+    "region": "Sicilia",
+    "baseServings": 4,
+    "times": {
+      "prep": 20,
+      "cook": 35
+    },
+    "image": "images/pasta-alla-norma.jpg",
+    "mainIngredients": [
+      "pasta",
+      "melanzane",
+      "pomodoro",
+      "ricotta salata"
+    ],
+    "ratings": {
+      "difficulty": 2,
+      "time": 3
+    }
+  },
+  {
+    "id": "pesto-genovese",
+    "name": "Trofie al pesto genovese",
+    "subtitle": "Pesto di basilico, pinoli e formaggi",
+    "category": "Primi piatti",
+    "categories": [
+      "primi",
+      "pasta",
+      "vegetariane"
+    ],
+    "region": "Liguria",
+    "baseServings": 4,
+    "times": {
+      "prep": 20,
+      "cook": 15
+    },
+    "image": "images/pesto-genovese.jpg",
+    "mainIngredients": [
+      "trofie",
+      "basilico",
+      "pinoli",
+      "parmigiano",
+      "pecorino"
+    ],
+    "ratings": {
+      "difficulty": 2,
+      "time": 2
+    }
+  },
+  {
+    "id": "parmigiana-melanzane",
+    "name": "Parmigiana di melanzane",
+    "subtitle": "Melanzane, pomodoro e formaggi a strati",
+    "category": "Secondi piatti",
+    "categories": [
+      "secondi",
+      "vegetariane",
+      "forno"
+    ],
+    "region": "Campania / Sicilia",
+    "baseServings": 6,
+    "times": {
+      "prep": 35,
+      "cook": 40
+    },
+    "image": "images/parmigiana-melanzane.jpg",
+    "mainIngredients": [
+      "melanzane",
+      "pomodoro",
+      "mozzarella",
+      "parmigiano"
+    ],
+    "ratings": {
+      "difficulty": 3,
+      "time": 4
+    }
+  },
+  {
+    "id": "ossobuco-milanese",
+    "name": "Ossobuco alla milanese",
+    "subtitle": "Vitello brasato con gremolada",
+    "category": "Secondi piatti",
+    "categories": [
+      "secondi",
+      "carne"
+    ],
+    "region": "Lombardia",
+    "baseServings": 4,
+    "times": {
+      "prep": 25,
+      "cook": 90
+    },
+    "image": "images/ossobuco-milanese.jpg",
+    "mainIngredients": [
+      "ossobuco di vitello",
+      "gremolada",
+      "limone",
+      "prezzemolo"
+    ],
+    "ratings": {
+      "difficulty": 3,
+      "time": 4
+    }
+  },
+  {
+    "id": "tiramisu",
+    "name": "Tiramisù",
+    "subtitle": "Savoiardi, caffè, mascarpone e cacao",
+    "category": "Dolci",
+    "categories": [
+      "dolci",
+      "senza-forno"
+    ],
+    "region": "Veneto / Friuli-Venezia Giulia",
+    "baseServings": 8,
+    "times": {
+      "prep": 35,
+      "cook": 0
+    },
+    "image": "images/tiramisu.jpg",
+    "mainIngredients": [
+      "mascarpone",
+      "caffè",
+      "savoiardi",
+      "cacao"
+    ],
+    "ratings": {
+      "difficulty": 3,
+      "time": 3
+    }
+  },
+  {
+    "id": "crostata-alle-mele",
+    "name": "Crostata alle mele",
+    "subtitle": "Frolla friabile ricoperta di mele",
+    "category": "Dolci",
+    "categories": [
+      "dolci",
+      "forno",
+      "vegetariane"
+    ],
+    "region": "Italia",
+    "baseServings": 8,
+    "times": {
+      "prep": 30,
+      "cook": 45
+    },
+    "image": "images/crostata-alle-mele.jpg",
+    "mainIngredients": [
+      "mele",
+      "pasta frolla"
+    ],
+    "ratings": {
+      "difficulty": 3,
+      "time": 3
+    }
+  },
+  {
+    "id": "torta-soffice-alle-mele",
+    "name": "Torta soffice alle mele",
+    "subtitle": "Morbida torta casalinga ricca di mele",
+    "category": "Dolci",
+    "categories": [
+      "dolci",
+      "forno",
+      "vegetariane"
+    ],
+    "region": "Italia",
+    "baseServings": 8,
+    "times": {
+      "prep": 20,
+      "cook": 45
+    },
+    "image": "images/torta-soffice-alle-mele.jpg",
+    "mainIngredients": [
+      "mele",
+      "farina",
+      "uova"
+    ],
+    "ratings": {
+      "difficulty": 2,
+      "time": 3
+    }
+  },
+  {
+    "id": "spaghetti-al-pomodoro",
+    "name": "Spaghetti al pomodoro",
+    "subtitle": "Il grande classico con pomodoro e basilico",
+    "category": "Primi piatti",
+    "categories": [
+      "primi",
+      "pasta",
+      "vegetariane"
+    ],
+    "region": "Italia",
+    "baseServings": 4,
+    "times": {
+      "prep": 10,
+      "cook": 25
+    },
+    "image": "images/spaghetti-al-pomodoro.jpg",
+    "mainIngredients": [
+      "spaghetti",
+      "pomodoro",
+      "basilico"
+    ],
+    "ratings": {
+      "difficulty": 1,
+      "time": 1
+    }
+  },
+  {
+    "id": "cinnamon-roll",
+    "name": "Cinnamon roll",
+    "subtitle": "Girelle soffici alla cannella",
+    "category": "Dolci",
+    "categories": [
+      "dolci",
+      "lievitati",
+      "forno"
+    ],
+    "region": "Internazionale",
+    "baseServings": 9,
+    "times": {
+      "prep": 30,
+      "cook": 25
+    },
+    "image": "images/cinnamon-roll.jpg",
+    "mainIngredients": [
+      "cannella",
+      "farina",
+      "burro",
+      "zucchero"
+    ],
+    "ratings": {
+      "difficulty": 4,
+      "time": 5
+    }
+  },
+  {
+    "id": "ragu-bolognese",
+    "name": "Ragù alla bolognese",
+    "subtitle": "Preparazione lenta per lasagne e tagliatelle",
+    "category": "Preparazioni di base",
+    "categories": [
+      "basi",
+      "carne"
+    ],
+    "region": "Emilia-Romagna",
+    "baseServings": 6,
+    "times": {
+      "prep": 25,
+      "cook": 150
+    },
+    "image": "images/ragu-bolognese.jpg",
+    "mainIngredients": [
+      "manzo",
+      "pancetta",
+      "soffritto",
+      "pomodoro"
+    ],
+    "ratings": {
+      "difficulty": 3,
+      "time": 5
+    },
+    "defaultYield": {
+      "quantity": 1200,
+      "unit": "g",
+      "label": "Ragù pronto"
+    }
+  },
+  {
+    "id": "besciamella",
+    "name": "Besciamella",
+    "subtitle": "Salsa bianca classica per lasagne e gratin",
+    "category": "Preparazioni di base",
+    "categories": [
+      "basi",
+      "vegetariane"
+    ],
+    "region": "Italia",
+    "baseServings": 6,
+    "times": {
+      "prep": 5,
+      "cook": 15
+    },
+    "image": "images/besciamella.jpg",
+    "mainIngredients": [
+      "latte",
+      "burro",
+      "farina",
+      "noce moscata"
+    ],
+    "ratings": {
+      "difficulty": 2,
+      "time": 2
+    },
+    "defaultYield": {
+      "quantity": 1100,
+      "unit": "g",
+      "label": "Besciamella pronta"
+    }
+  }
+]

@@ -1,0 +1,117 @@
+{
+  "id": "besciamella",
+  "name": "Besciamella",
+  "subtitle": "Salsa bianca classica per lasagne e gratin",
+  "category": "Preparazioni di base",
+  "categories": [
+    "basi",
+    "vegetariane"
+  ],
+  "region": "Italia",
+  "baseServings": 6,
+  "referenceIngredientId": "latte",
+  "times": {
+    "prep": 5,
+    "cook": 15
+  },
+  "image": "images/besciamella.jpg",
+  "mainIngredients": [
+    "latte",
+    "burro",
+    "farina",
+    "noce moscata"
+  ],
+  "ingredients": [
+    {
+      "id": "latte",
+      "name": "Latte intero",
+      "quantity": 1000,
+      "unit": "ml",
+      "scalable": true,
+      "allergens": [
+        "latte"
+      ]
+    },
+    {
+      "id": "burro",
+      "name": "Burro",
+      "quantity": 80,
+      "unit": "g",
+      "scalable": true,
+      "allergens": [
+        "latte"
+      ]
+    },
+    {
+      "id": "farina",
+      "name": "Farina 00",
+      "quantity": 80,
+      "unit": "g",
+      "scalable": true,
+      "allergens": [
+        "glutine"
+      ]
+    },
+    {
+      "id": "sale",
+      "name": "Sale",
+      "quantity": 6,
+      "unit": "g",
+      "scalable": true
+    },
+    {
+      "id": "noce",
+      "name": "Noce moscata",
+      "quantity": 1,
+      "unit": "g",
+      "scalable": true
+    }
+  ],
+  "steps": [
+    "Scalda il latte.",
+    "Prepara roux.",
+    "Incorpora latte gradualmente.",
+    "Addensa e condisci."
+  ],
+  "detailedSteps": [
+    {
+      "title": "Scalda il latte",
+      "text": "Ben caldo senza bollire.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Roux",
+      "text": "Sciogli burro e aggiungi farina.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Latte graduale",
+      "text": "Versalo in tre riprese.",
+      "tip": "Aiuta a evitare grumi.",
+      "warning": ""
+    },
+    {
+      "title": "Addensa",
+      "text": "Cuoci 6-10 minuti.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Condisci",
+      "text": "Sale e noce moscata.",
+      "tip": "",
+      "warning": ""
+    }
+  ],
+  "ratings": {
+    "difficulty": 2,
+    "time": 2
+  },
+  "defaultYield": {
+    "quantity": 1100,
+    "unit": "g",
+    "label": "Besciamella pronta"
+  }
+}

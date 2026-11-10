@@ -1,0 +1,93 @@
+[
+  {
+    "id": "primi",
+    "name": "Primi",
+    "icon": "🍝",
+    "description": "Pasta, riso e primi piatti",
+    "order": 10
+  },
+  {
+    "id": "secondi",
+    "name": "Secondi",
+    "icon": "🍽️",
+    "description": "Piatti principali",
+    "order": 20
+  },
+  {
+    "id": "carne",
+    "name": "Carne",
+    "icon": "🥩",
+    "description": "Ricette a base di carne",
+    "order": 30
+  },
+  {
+    "id": "pesce",
+    "name": "Pesce",
+    "icon": "🐟",
+    "description": "Ricette di pesce",
+    "order": 40
+  },
+  {
+    "id": "vegetariane",
+    "name": "Vegetariane",
+    "icon": "🥬",
+    "description": "Senza carne e pesce",
+    "order": 50
+  },
+  {
+    "id": "riso",
+    "name": "Riso",
+    "icon": "🍚",
+    "description": "Risotti e ricette con riso",
+    "order": 60
+  },
+  {
+    "id": "pasta",
+    "name": "Pasta",
+    "icon": "🍝",
+    "description": "Pasta secca e fresca",
+    "order": 70
+  },
+  {
+    "id": "barbecue",
+    "name": "Barbecue",
+    "icon": "🔥",
+    "description": "Griglia e brace",
+    "order": 80
+  },
+  {
+    "id": "forno",
+    "name": "Al forno",
+    "icon": "♨️",
+    "description": "Ricette al forno",
+    "order": 90
+  },
+  {
+    "id": "dolci",
+    "name": "Dolci",
+    "icon": "🍰",
+    "description": "Torte e dessert",
+    "order": 100
+  },
+  {
+    "id": "lievitati",
+    "name": "Pane e lievitati",
+    "icon": "🥖",
+    "description": "Impasti lievitati",
+    "order": 110
+  },
+  {
+    "id": "senza-forno",
+    "name": "Senza forno",
+    "icon": "❄️",
+    "description": "Senza cottura al forno",
+    "order": 120
+  },
+  {
+    "id": "basi",
+    "name": "Preparazioni di base",
+    "icon": "🥣",
+    "description": "Salse e preparazioni utili",
+    "order": 130
+  }
+]

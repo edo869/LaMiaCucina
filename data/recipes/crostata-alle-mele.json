@@ -1,0 +1,117 @@
+{
+  "id": "crostata-alle-mele",
+  "name": "Crostata alle mele",
+  "subtitle": "Frolla friabile ricoperta di mele",
+  "category": "Dolci",
+  "categories": [
+    "dolci",
+    "forno",
+    "vegetariane"
+  ],
+  "region": "Italia",
+  "baseServings": 8,
+  "referenceIngredientId": "farina",
+  "times": {
+    "prep": 30,
+    "cook": 45
+  },
+  "image": "images/crostata-alle-mele.jpg",
+  "mainIngredients": [
+    "mele",
+    "pasta frolla"
+  ],
+  "ingredients": [
+    {
+      "id": "farina",
+      "name": "Farina 00",
+      "quantity": 300,
+      "unit": "g",
+      "scalable": true,
+      "allergens": [
+        "glutine"
+      ]
+    },
+    {
+      "id": "burro",
+      "name": "Burro",
+      "quantity": 150,
+      "unit": "g",
+      "scalable": true,
+      "allergens": [
+        "latte"
+      ]
+    },
+    {
+      "id": "zucchero",
+      "name": "Zucchero",
+      "quantity": 120,
+      "unit": "g",
+      "scalable": true
+    },
+    {
+      "id": "uova",
+      "name": "Uova",
+      "quantity": 2,
+      "unit": "pz",
+      "scalable": true,
+      "allergens": [
+        "uova"
+      ]
+    },
+    {
+      "id": "mele",
+      "name": "Mele",
+      "quantity": 700,
+      "unit": "g",
+      "scalable": true
+    }
+  ],
+  "steps": [
+    "Prepara la frolla.",
+    "Affetta le mele.",
+    "Rivesti lo stampo e farcisci.",
+    "Cuoci e raffredda."
+  ],
+  "detailedSteps": [
+    {
+      "title": "Frolla",
+      "text": "Lavora velocemente gli ingredienti.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Riposo",
+      "text": "Refrigera almeno 30 minuti.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Mele",
+      "text": "Taglia a fettine sottili.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Stendi",
+      "text": "Stendi a 4-5 mm in uno stampo da 24 cm.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Farcisci e cuoci",
+      "text": "Cuoci a 180 °C 40-45 minuti.",
+      "tip": "",
+      "warning": ""
+    },
+    {
+      "title": "Raffredda",
+      "text": "Aspetta almeno 20 minuti.",
+      "tip": "",
+      "warning": ""
+    }
+  ],
+  "ratings": {
+    "difficulty": 3,
+    "time": 3
+  }
+}
